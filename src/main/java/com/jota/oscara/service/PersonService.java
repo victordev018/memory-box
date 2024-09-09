@@ -35,4 +35,12 @@ public class PersonService {
         return repository.findAll();
     }
 
+    public Person update(String name, Person person){
+        Person obj = findByName(name);
+        obj.setName(person.getName());
+        obj.setImageUrl(person.getImageUrl());
+        obj.setDescription(person.getDescription());
+        return repository.save(obj);
+    }
+
 }

@@ -42,4 +42,11 @@ public class PersonController {
 
         return ResponseEntity.status(HttpStatus.OK).body(personResponseList);
     }
+
+    @PutMapping("/update/{name}")
+    public ResponseEntity<PersonResponse> update(@PathVariable String name, @RequestBody PersonRequest request){
+        Person obj = service.update(name, new Person(null, request.name(), request.description(), request.imageUrl()));
+        PersonResponse response = new PersonResponse(obj.getName(), obj.getImageUrl(), obj.getDescription());
+        return ResponseEntity.status(HttpStatus.OK).body(response);
+    }
 }

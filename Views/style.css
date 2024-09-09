@@ -1,0 +1,51 @@
+*{
+    margin: 2px;
+    padding: 2px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgrey;
+}
+
+.search button{
+    border: none;
+    border-radius: 3px;
+    background: azure;
+}
+
+.search input{
+    border: none;
+    border-radius: 3px;
+}
+
+.search button:hover{
+    cursor: pointer;
+    background: #cdf8f8;
+}
+
+.person {
+    margin-top: 10px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    border-color: #767676;
+    border-radius: 5px;
+}
+
+.person h2{
+    text-align: center;
+}
+
+.person img{
+    width: 210px;
+    border-radius: 20px;
+}
+
+.person p{
+    text-align: center;
+}
