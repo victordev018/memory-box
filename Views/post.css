@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: darkgrey;
+    display: flex;
+}
+
+.create-person{
+    background-color: cadetblue;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+label{
+    display: block;
+    margin-bottom: 8px;
+}
+
+input{
+    width: 96%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+
+button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #9fdb6b;
+    height: 35px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px ;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover{
+    background-color: #7bdd37;
+}
