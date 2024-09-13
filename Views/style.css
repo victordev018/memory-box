@@ -21,27 +21,35 @@ body{
 }
 
 .show-all{
-    background: #737171;
+    padding: 4px;
+    background: azure;
     color: black;
     position: absolute;
-    left: 1px;
+    left: 2px;
     font-size: 15px;
-    margin: 15px 2px;
-    border: 2px solid #4b4b4b;
-    border-radius: 2px;
+    margin: 12px 2px;
+    border-radius: 3px;
     text-decoration: none;
 }
 
+.show-all:hover{
+    background-color: #cdf8f8;
+}
+
 .create-new-person{
-    background: #737171;
+    padding: 4px;
+    background: azure;
     color: black;
     position: absolute;
-    right: 1px;
+    right: 3px;
     font-size: 15px;
-    margin: 15px 2px;
-    border: 2px solid #4b4b4b;
-    border-radius: 2px;
+    margin: 12px 2px;
+    border-radius: 3px;
     text-decoration: none;
+}
+
+.create-new-person:hover{
+    background-color: #cdf8f8;
 }
 
 .search {
