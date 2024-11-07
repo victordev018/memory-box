@@ -25,8 +25,8 @@ construído com `HTML5`, `CSS3` e `JavaScript`.
 
 ## Aprendizados:
 
-Este projeto possibilitou a aplicação dos meus conhecimentos na criação de APIs, além de integrar conceitos de front-end, 
-como design e experiência do usuário.
+Este projeto possibilitou a aplicação dos meus conhecimentos na criação de APIs e persistência de dados, além de integrar 
+conceitos de front-end, como criação de documentos HTML, estilização de cada componente e manipulação do DOM.
 
 ## ⚙️Tecnologias utilizadas:
 - Java
