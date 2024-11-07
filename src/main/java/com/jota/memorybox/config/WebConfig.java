@@ -1,4 +1,4 @@
-package com.jota.oscara.config;
+package com.jota.memorybox.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;

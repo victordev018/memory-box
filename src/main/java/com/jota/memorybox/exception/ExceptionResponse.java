@@ -1,4 +1,4 @@
-package com.jota.oscara.exception;
+package com.jota.memorybox.exception;
 
 
 import org.springframework.http.HttpStatus;

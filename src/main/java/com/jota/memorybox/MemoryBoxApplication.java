@@ -1,13 +1,13 @@
-package com.jota.oscara;
+package com.jota.memorybox;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class OscaraApplication {
+public class MemoryBoxApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(OscaraApplication.class, args);
+		SpringApplication.run(MemoryBoxApplication.class, args);
 	}
 
 }

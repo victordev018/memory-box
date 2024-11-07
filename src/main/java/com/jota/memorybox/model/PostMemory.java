@@ -1,4 +1,4 @@
-package com.jota.oscara.model;
+package com.jota.memorybox.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -12,7 +12,7 @@ import lombok.Setter;
 @Setter
 @Entity
 @Table(name = "tb_person")
-public class Person {
+public class PostMemory {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

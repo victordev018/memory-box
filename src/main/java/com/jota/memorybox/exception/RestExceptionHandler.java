@@ -1,6 +1,6 @@
-package com.jota.oscara.exception;
+package com.jota.memorybox.exception;
 
-import com.jota.oscara.service.exception.PersonNotFoundException;
+import com.jota.memorybox.service.exception.PostMemoryNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
@@ -11,9 +11,9 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExcep
 @ControllerAdvice
 public class RestExceptionHandler extends ResponseEntityExceptionHandler {
 
-    @ExceptionHandler(PersonNotFoundException.class)
+    @ExceptionHandler(PostMemoryNotFoundException.class)
     @ResponseStatus(HttpStatus.NOT_FOUND)
-    public ResponseEntity<ExceptionResponse> personNotFoundException(PersonNotFoundException exception){
+    public ResponseEntity<ExceptionResponse> personNotFoundException(PostMemoryNotFoundException exception){
         ExceptionResponse response = new ExceptionResponse(exception.getMessage(), HttpStatus.NOT_FOUND);
         return ResponseEntity.status(HttpStatus.NOT_FOUND).body(response);
     }

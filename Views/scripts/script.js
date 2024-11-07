@@ -2,7 +2,7 @@ const personName = document.getElementById("personName");
 const bottomSearch = document.getElementById("bt_search");
 const listPerson = document.querySelector(".list-person");
 const bottomShowAll = document.querySelector(".show-all");
-const URL = `http://localhost:8080/person`
+const URL = `http://localhost:8080/post`
 
 const fetchApi = async (rout) => {
     try {

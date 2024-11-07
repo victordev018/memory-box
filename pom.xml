@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.jota</groupId>
-	<artifactId>oscara</artifactId>
+	<artifactId>memorybox</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>oscara</name>
-	<description>aplicação dos cara</description>
+	<name>memory-box</name>
+	<description>application for storing memories</description>
 	<url/>
 	<licenses>
 		<license/>

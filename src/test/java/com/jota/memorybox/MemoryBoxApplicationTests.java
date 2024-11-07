@@ -1,10 +1,10 @@
-package com.jota.oscara;
+package com.jota.memorybox;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class OscaraApplicationTests {
+class MemoryBoxApplicationTests {
 
 	@Test
 	void contextLoads() {
